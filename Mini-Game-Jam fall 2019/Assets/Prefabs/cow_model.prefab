@@ -90,7 +90,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153814229628399416}
-  m_Material: {fileID: 13400000, guid: 3327da3fe745a7a419c33e754fd32adb, type: 2}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.0061513544
@@ -229,7 +229,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237810676233999673}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.006459974
@@ -475,7 +475,6 @@ GameObject:
   - component: {fileID: 1436160658341991018}
   - component: {fileID: 9035425109103951632}
   - component: {fileID: 6238875595654065768}
-  - component: {fileID: 6238875595654065769}
   m_Layer: 0
   m_Name: cow_model
   m_TagString: Untagged
@@ -491,7 +490,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2717110225110524025}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.87, y: 19.75, z: -0.871}
+  m_LocalPosition: {x: 0.87, y: 20.205, z: -0.871}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 1841495981042046427}
@@ -534,20 +533,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &6238875595654065769
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2717110225110524025}
-  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.07073698
-  m_Height: 0.21696778
-  m_Direction: 0
-  m_Center: {x: -0.002705002, y: 0.004124546, z: 0}
 --- !u!1 &2908417322839273423
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +590,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2908417322839273423}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.0065184566
@@ -750,7 +735,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3459072270909262687}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -889,7 +874,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3970271734206742571}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1087,7 +1072,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5273160515335162935}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.004297108
@@ -1196,7 +1181,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6563694281681008896}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1319,7 +1304,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7759996829037673752}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.006097883
@@ -1428,7 +1413,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7761874163555666466}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.005211083
@@ -1537,7 +1522,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7946830922344153717}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.0031343098
@@ -1785,7 +1770,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8990932205208026220}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c6cd20b546eb61e40885028a84f5d4a7, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.0026399833
