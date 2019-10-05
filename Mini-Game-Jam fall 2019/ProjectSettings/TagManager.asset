@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Slime
+    uniqueID: 114892831
+    locked: 0
+  - name: Attacks
+    uniqueID: 2955662741
+    locked: 0
