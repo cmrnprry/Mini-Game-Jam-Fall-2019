@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Rain
+  - Tiger
   layers:
   - Default
   - TransparentFX

@@ -18,12 +18,11 @@ public class Protecc_RainController : MonoBehaviour
     // OnParticleCollision is called when a particle in this system hits a collider.
     private void OnParticleCollision(GameObject other)
     {
-        int numCollisionEvents = part.GetCollisionEvents(other, collisionEvents);
-        Rigidbody rb = other.GetComponent<Rigidbody>();
-        Animator anim = other.GetComponent<Animator>();
-
-        if (numCollisionEvents > 0 && rb)
+        if (other.CompareTag("Tiger"))
         {
+            Rigidbody rb = other.GetComponent<Rigidbody>();
+            Animator anim = other.GetComponent<Animator>();
+
             anim.SetBool("isHurt", true);
         }
     }

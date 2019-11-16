@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Protecc/Protecc.unity
+    guid: df6b0f26d7886e845863716eb43b73df
   m_configObjects: {}
